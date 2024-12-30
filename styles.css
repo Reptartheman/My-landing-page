@@ -21,7 +21,7 @@ html {
 }
 
 body {
- background-image: url('./assets/Landing\ page\ background.svg');
+ background-image: url('./assets/Landing\ page\ background.png');
  background-repeat: no-repeat;
  background-size:auto;
  font-family: var(--font-main);
@@ -139,6 +139,27 @@ footer.footer {
   font-size: 1vw;
 
 }
+
+#header {
+  transform: translateY(-1000px);
+  opacity: 0;
+}
+
+#footer {
+  transform: translateY(800px) translateZ(-1400px);
+  opacity: 0;
+}
+
+#cardLeft {
+  transform: translateX(-1000px) translateZ(-1400px);
+  opacity: 0;
+}
+
+#cardRight {
+  transform: translateX(1000px) translateZ(-1400px);
+  opacity: 0;
+}
+
 
 
 @media (max-width: 1023px) {
