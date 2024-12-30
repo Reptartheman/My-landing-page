@@ -1,4 +1,6 @@
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
+injectSpeedInsights();
 const animations = {
   fromTop: {
     keyframes: [
@@ -50,7 +52,4 @@ const init = () => {
 }
 
 
-window.addEventListener('load', () => {
-  document.body.style.backgroundImage = "url('./assets/landing-page-bg.png')";
-  init();
-});
+window.addEventListener('load', init);
