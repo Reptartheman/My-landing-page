@@ -50,4 +50,7 @@ const init = () => {
 }
 
 
-window.addEventListener('load', init);
+window.addEventListener('load', () => {
+  document.body.style.backgroundImage = "url('./assets/landing-page-bg.png')";
+  init();
+});

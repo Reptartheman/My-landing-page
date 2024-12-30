@@ -21,7 +21,7 @@ html {
 }
 
 body {
- background-image: url('./assets/Landing\ page\ background.png');
+ background-image: url('./assets/landing-page-bg.png');
  background-repeat: no-repeat;
  background-size:auto;
  font-family: var(--font-main);
